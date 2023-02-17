@@ -1,5 +1,5 @@
-import src.design_compared_data as design_data
 import openpyxl
+import src.design_xlsx_file_data as design_data
 
 num_of_failed_assertions = 0
 output_curr = expected_curr = 1

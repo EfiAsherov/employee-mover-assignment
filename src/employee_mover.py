@@ -4,7 +4,7 @@ import requests
 from src.employee import Employee
 from src.extract_employee import EmployeeDataExtractor
 from concurrent.futures import ThreadPoolExecutor
-import src.design_compared_data as design_data
+import src.design_xlsx_file_data as design_data
 
 class EmployeeMover(EmployeeDataExtractor):
     def __init__(self, employees_data_file: str, output_file: str, default_currency_val: float, default_register_id_val: int):
