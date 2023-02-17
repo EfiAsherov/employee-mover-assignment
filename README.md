@@ -2,6 +2,7 @@
 To download and install the required dependencies, run the following commands in the terminal:
 * pip install openpyxl
 * pip install requests
+
 Or run the following command instead: pip install -r requirements.txt
 
 ## Running The Application
